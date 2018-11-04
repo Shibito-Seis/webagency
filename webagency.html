@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+  <html lang="fr">
+    <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="stylewebagency.css">
+	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- vieux lien pour les hr (rond) et flèches onglets -->
+      <title>WebAgency - L'agence de tout vos projets de communication digital !</title>
+    </head>
+    <body>
+      <!--HEADER-->
+      <header>
+        <div id="logo">
+          <a href="#"><img src="images/logo.png" alt="Logo WebAgency"/></a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projets">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!--SECTION SLIDER-->
+      <section class="slider_container">
+        <div id="text_slide">
+          <h1>
+            <span id="titre_slide">WEBAGENCY
+            </span> : L'AGENCE DE TOUS VOS PROJETS !
+          </h1>
+          <p id="small_text_slide">Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
+          <p>
+            <a href="#services">Plus d'infos</a></p>
+        </div>
+        <!-- Conteneur -->
+        <div class="slider">
+          <!-- Contrôleurs -->
+          <input class="slider__controller" type="radio" name="slider-controller" id="slide-1" checked />
+          <input class="slider__controller" type="radio" name="slider-controller" id="slide-2" />
+          <!-- Conteneur intérieur -->
+          <div class="slider__inner">
+            <!-- Image 1 -->
+            <figure class="slide">
+              <img class="slide__image slide__image--1" src="images/slider/bg1.jpg" alt="fille peinture">
+            </figure>
+            <!-- Image 2 -->
+            <figure class="slide">
+              <img class="slide__image slide__image--2" src="images/slider/bg2.jpg" alt="garçon mégaphone">
+            </figure>
+          </div>
+          <!-- Interface -->
+          <div class="slider__nav">
+            <label class="slider__nav__chevron" for="slide-1"></label>
+            <label class="slider__nav__chevron" for="slide-2"></label> 
+          </div>
+        </div>
+      </section>
+	  <!--SECTION TITRE DES SERVICES-->
+  <section id="services">
+      <div id="titre_services">
+    		<h2>NOS SERVICES</h2>
+          <hr />
+    			<p>WebAgency est une agence spécialisée dans la création de sites web personnalisé et de communication digitale <strong>répondant à vos attentes et personnalisé.</strong></p>
+    	</div>
+  </section>
+<!--SECTION SERVICES-->
+  <section id="container_services">
+   		<img src="images/main-feature.png" id="imgfeature" alt="Nos services" />
+    	<div class="services_description">
+    		  <h3>UX DESIGN</h3>
+     			<div class="block_text"><i class="fas fa-chart-line"></i>
+            <p>Toute l'équipe de la WebAgency est à votre écoute afin de réaliser un site web correspondant à vos attentes, suivant un cahier des charges bien précis. Par ailleurs, notre équipe spécialisée est là pour vous proposer des <strong>solutions adaptées à votre secteur d'activité.</strong> </p></div>
+    		  <h3>UI DESIGN</h3>
+          <div class="block_text"><i class="fas fa-cubes"></i>
+    			  <p>Selon une charte graphique bien précise établie ensemble, votre projet sera réalisé afin de permettre une navigation optimale et simple pour vos utilisateurs. Enfin, tous nos sites sont conçus afin d'être <strong>responsives.</strong></p></div>
+    		  <h3>SEO</h3>
+          <div class="block_text"><i class="fas fa-chart-pie"></i>
+    			  <p>Parce que la Webagency est consciente de la qualité de son travail, <strong>notre équipe d'Experts SEO</strong> met un point d'honneur en vous garantissent une visibilité sur les moteurs de recherche indéniable !</p></div>
+    	</div>
+  </section>
+  <!--SECTION PROJETS-->
+  <section id="projets">
+    	<div id="titre_projets">
+    		  <h2>NOS PROJETS</h2>
+          <hr />
+    			<p>En manque d'inspiration ? Voici quelques exemples de sites web réalisés pour nos clients.<br />
+			   	   Allez vite jeter un coup d'oeil !</p>
+    	</div>
+      <!--Petit menu des projets-->
+    	<nav>
+        <div class="menu_projet">
+    		  <ul>
+    			 <li><a  href="#allworks">AllWorks</a></li>
+    			 <li><a href="#creative">Creative</a></li>
+    			 <li><a href="#corporate">Corporate</a></li>
+    			 <li><a href="#portfolio">Portfolio</a></li>
+    		  </ul>
+        </div>
+    	</nav>
+      <!--Affichage des items des projets-->
+   		<div class="projets_album">
+   			<figure>
+          <img src="images/portfolio/01.jpg" class="img_projet" alt="item 1" />
+          <div class="masque"><i class="fa fa-eye"></i><div class="text_img">Rendez réel vos envies</div></div>
+        </figure>
+   			<figure>
+   				<img src="images/portfolio/02.jpg" alt="item 2"/>
+           <div class="masque"><i class="fa fa-eye"></i><div class="text_img">Surprenez vos clients</div></div>  
+   			</figure>
+   			<figure>
+   				<img src="images/portfolio/03.jpg" alt="item 3"/>
+          <div class="masque"><i class="fa fa-eye"></i><div class="text_img">Le Vintage est toujours à la mode</div></div>    
+   			</figure>
+   			<figure>
+   				<img src="images/portfolio/04.jpg" alt="item 4"/>
+           <div class="masque"><i class="fa fa-eye"></i><div class="text_img">La créativité au plus près des sociétés</div></div>   
+   			</figure>
+   			<figure>
+   				<img src="images/portfolio/05.jpg" alt="item 5"/>
+           <div class="masque"><i class="fa fa-eye"></i><div class="text_img">L'art de se renouveler</div></div>   
+   			</figure>
+   			<figure>
+   				<img src="images/portfolio/06.jpg" alt="item 6"/>
+           <div class="masque"><i class="fa fa-eye"></i><div class="text_img">Une envie d'exotisme</div></div>   
+   			</figure>
+   			<figure>
+   				<img src="images/portfolio/07.jpg" alt="item 7"/>
+           <div class="masque"><i class="fa fa-eye"></i><div class="text_img">Décollage immédiat</div></div>  
+   			</figure>
+   			<figure>
+   				<img src="images/portfolio/08.jpg" alt="item 8"/>
+           <div class="masque"><i class="fa fa-eye"></i><div class="text_img">Possibilités de changements</div></div>  
+   			</figure>
+   		</div>
+    </section>
+	<!--SECTION CONTACT-->
+    <section id="contact">
+      <!--Intégration de la carte google map-->
+    	<iframe id="carte" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2156022977942!2d2.3476356158409803!3d48.87316630761995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145cb52f15%3A0x4d3ec41b2cadff0!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1520542718327" allowfullscreen></iframe>
+    	<!--Formulaire de contact-->
+      <form method="post" action="#">
+    		<div id="form_contact">
+    			<h4>Nous Contacter </h4>
+    				<p id="adresse"><span id="titre_adresse">WebAgency</span><br />25 rue d'Hauteville 75010 Paris<br />Tel : 01 02 03 04 05</p>
+    				<input  type="text"  name="name" id="name" placeholder="Votre nom" />
+    				<input type="text"  name="email" id="email" placeholder="Email" />
+    				<input type="text"  name="subject" id="subject" placeholder="Sujet" />
+    				<textarea name="message"  id="message" placeholder="Message" rows="5"></textarea>
+    					<p><a href="#" class="bouton">Envoyer</a></p>
+    		</div>
+    	</form>
+    </section>
+	<footer>
+      <p id="copyright">WebAgency</p>
+      <p>Nous sommes aussi présent sur les réseaux sociaux !</p>
+      <div id="reseaux_sociaux">
+        <span class="fa fa-facebook"></span>
+        <span class="fa fa-twitter"></span>
+        <span class="fa fa-google"></span>
+        <span class="fa fa-rss"></span>
+      </div>
+    </footer>
+	</body>
+      </html>
