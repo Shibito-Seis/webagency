@@ -541,10 +541,11 @@ footer p{
 @media screen and (max-width: 500px){
 	
 
-	#logo{
+	#logo img{
 		padding-top: 5%;
 		position: relative;
-		height: 25%;
+		width: auto;
+		max-width: 95px;
 	}
 	
 	h1{
@@ -565,7 +566,7 @@ footer p{
 	
 	header{
 		flex-direction: column;
-		width: 45%;
+		width: 20%;
 		height: 32%;
 	}
 	
@@ -640,7 +641,7 @@ figure:hover .masque{
 	#carte{
 	position: absolute;
 	width: 80%;
-	height: 85%;
+	height: 61.3%;
 	border: 0;
 	}
 	
