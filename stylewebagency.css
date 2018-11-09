@@ -568,6 +568,7 @@ footer p{
 		flex-direction: column;
 		width: 20%;
 		height: 32%;
+		display: none;
 	}
 	
 	header ul a{
