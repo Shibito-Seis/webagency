@@ -294,7 +294,7 @@ hr::after{
 
 /********* PROJETS *********/
 
-#projets{
+#projects{
 	background-color: rgb(230,230,230);
 	margin-bottom: 100px;
 }
@@ -305,13 +305,13 @@ hr::after{
 	position: relative;
 }
 
-#projets ul{
+#projects ul{
 	display: flex;
     justify-content: center;
     list-style-type: none;
 }
 
-#projets li a{
+#projects li a{
 	color: black;
     text-decoration: none;
     padding: 10px 15px;
@@ -320,14 +320,14 @@ hr::after{
     border-bottom: 3px solid rgb(200,200,200);
  }
  
-#projets li a:hover  {
+#projects li a:hover  {
     background-color: rgb(50,150,180);
     border-bottom: 3px solid rgb(40, 120, 140);
     color: white;
     cursor: pointer;
 }
 
-#projets li a:hover::after{
+#projects li a:hover::after{
 	font-family: fontawesome;
 	content: "\f0d7";
 	position: absolute;
@@ -530,14 +530,15 @@ footer p{
 	#carte{
 	position: absolute;
 	width: 100%;
-	height: 82%;
+	height: 54.5%;
 	border: 0;
 	}
+	
 }
 
-/*** Pour écran inférieur a 500px ***/
+/*** Pour écran inférieur a 501px ***/
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 501px){
 	
 
 	#logo img{
@@ -611,6 +612,10 @@ footer p{
 		width: 250%;
 	}
 	
+	.block_text p{
+		padding-left: 10px;
+	}
+	
 	.services_description{
 		width: 200%;
 	}
@@ -621,27 +626,27 @@ footer p{
 	padding-top: 2%;
 	}
 	
-	#projets ul{
+	#projects ul{
 		padding-right: 1%;
 	}
 	
 	.masque{
 		margin-top: 15%;
-}
+	}
 
-figure:hover .masque{
+	figure:hover .masque{
     transform: translateY(-90px);
-}
+	}
 
-.fa-eye{
+	.fa-eye{
 	visibility: hidden;
-}
+	}
 
 	/** Contact **/
 	#carte{
 	position: absolute;
 	width: 95%;
-	height: 80%;
+	height: 60%;
 	border: 0;
 	margin-left: -43px;
 	}
@@ -653,6 +658,7 @@ figure:hover .masque{
 	
 	#form_contact{
 		display: flex;
+		opacity: 0.9;
 		width: 100%;
 		height: 350px;
 		margin-left: 50%;
@@ -676,6 +682,7 @@ figure:hover .masque{
 		width: 15%;
 		text-align: center;
 		flex-direction: column;
+		padding-right: 35px;
 	}
 	
 	#reseaux_sociaux{
