@@ -8,7 +8,7 @@ body{
 	font-family: 'roboto', sans-serif;
 }
 
-h1, h2, h3, #titre_slide
+h1, h2, h3, #title_slide
 {
 	font-family: 'roboto-bold', sans-serif;
 	font-weight: bold;
@@ -73,7 +73,7 @@ header ul a:hover{
 	margin: auto;
 }
 
-#titre_slide{
+#title_slide{
 	color: rgb(50, 150, 180);
 }
 
@@ -218,12 +218,12 @@ header ul a:hover{
 	justify-content: center;
 }
 
-#titre_services{
+#title_services{
 	margin-top: 7.5%;
 	text-align: center;
 }
 
-#titre_services p{
+#title_services p{
 	max-width: 50%;
 	margin-left: 26%;
 }
@@ -299,7 +299,7 @@ hr::after{
 	margin-bottom: 100px;
 }
 
-#titre_projets{
+#title_projects{
 	padding-top: 5px;
 	text-align: center;
 	position: relative;
@@ -339,7 +339,7 @@ hr::after{
 
 /********* ALBUM PROJETS *********/
 
-.projets_album{
+.projects_album{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -347,7 +347,7 @@ hr::after{
 	margin: 0 auto;
 }
 
-.projets_album figure{
+.projects_album figure{
 	position: relative;
 	width: 255px;
 	height: 170px;
@@ -355,11 +355,11 @@ hr::after{
 	overflow: hidden;
 }
 
-.projets_album figure img{
+.projects_album figure img{
 	width: 100%;
 }
 
-.masque{
+.mask{
 	background-color: rgba(0, 0, 0, 0.6);
 	width: 100%;
 	height: 50%;
@@ -367,7 +367,7 @@ hr::after{
     transition: transform 2s; 
 }
 
-figure:hover .masque{
+figure:hover .mask{
 	display: block;
 	opacity: 0.8;
     transform: translateY(-68px);
@@ -394,7 +394,7 @@ figure:hover .masque{
 /********* CONTACT *********/
 
 
-#carte{
+#map{
 	position: absolute;
 	width: 100%;
 	height: 62.5%;
@@ -481,7 +481,7 @@ footer p{
 	padding-top: 3.5%;
 }
 
-#reseaux_sociaux {
+#social_network {
 	flex-direction: column;
 	text-decoration: none;
 	font-size: 1.5em;
@@ -492,7 +492,7 @@ footer p{
 /*** Pour écrans sup a  1680px ***/
 
 @media screen and (min-width: 1680px){
-	.projets_album{
+	.projects_album{
 		width: 75%;
 	}
 }
@@ -527,7 +527,7 @@ footer p{
    		 margin-left: 55%;
 		 
 	}
-	#carte{
+	#map{
 	position: absolute;
 	width: 100%;
 	height: 54.5%;
@@ -588,7 +588,7 @@ footer p{
 
 	/** Services **/
 	
-	#titre_services{
+	#title_services{
 		margin-top: 35%;
 		text-align: center;
 		padding: 0% 2%;
@@ -622,7 +622,7 @@ footer p{
 	
 	/** Projets **/
 	
-	#titre_projets{
+	#title_projects{
 	padding-top: 2%;
 	}
 	
@@ -630,11 +630,11 @@ footer p{
 		padding-right: 1%;
 	}
 	
-	.masque{
+	.mask{
 		margin-top: 15%;
 	}
 
-	figure:hover .masque{
+	figure:hover .mask{
     transform: translateY(-90px);
 	}
 
@@ -643,7 +643,7 @@ footer p{
 	}
 
 	/** Contact **/
-	#carte{
+	#map{
 	position: absolute;
 	width: 95%;
 	height: 60%;
@@ -673,7 +673,7 @@ footer p{
 		width: 89%;
 	}
 	
-	.menu_projet{
+	.menu_project{
 		display: none;
 	}
 	
@@ -685,7 +685,7 @@ footer p{
 		padding-right: 35px;
 	}
 	
-	#reseaux_sociaux{
+	#social_network{
 		display: flex;
 		flex-direction: column;
 	}
@@ -695,4 +695,3 @@ footer p{
 		margin-top: 30px;
 	}
 }
-
